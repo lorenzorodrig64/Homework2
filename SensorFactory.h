@@ -8,7 +8,7 @@
 class SensorFactory
 {
 public:
-	static Sensor* createSensor(std::string input);
+	static Sensor* createSensor(std::string input); // static function which takes in a string and returns a Sensor class pointer
 };
 
 #endif
